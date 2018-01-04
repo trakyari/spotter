@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-job-search-engines {
+	border-radius:0px;
+	font-size:1.25rem;
+	border-style:solid;
+	border-color:#FFF;
+	border-width:3px 3px 3px 3px;
+	color:#FFF;
+	background:gray;
+	transition-duration: 0.3s;
+}
+
+.btn-job-search-engines:hover {
+	background: #343a40 !important;
+}
+
+hr {
+	color: white;
+	margin-top: 0.25rem;
+	margin-bottom: 0;
+	height: 1px;
+}

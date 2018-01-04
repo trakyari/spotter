@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Site Wide Styling */
+
+.navbar-expanded-border-color {
+	border-color:#8D8D8D;
+}
+
+.navbar-expanded-content-item {
+	font-size: 1rem;
+	color: #000000;
+	transition-delay: 0.1s;
+	transition-timing-function: ease;
+}
+
+.navbar-expanded-content-item:hover {
+	color: #7C8893;
+	/*border-bottom: 2px solid #7C8893;*/
+	text-decoration: none;	
+}
+
+.expanded-nav-icons {
+	width: 50px;
+	height: auto;
+}
+
+.expanded-nav-icons:hover {
+	color: #7C8893;
+}
+
+.bg-main {
+	background-color: lightgrey;
+}
+
+.bg-accent {
+	background-color: lightskyblue;
+}
+.bg-gray {
+	background-color:#A6A6A6;
+}
+
+.tile {
+	padding-right: 0.25rem;
+	padding-left: 0.25rem;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+.tile-border {
+	border: none;
+}
+
+.tile-img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+}
+
+.line {
+	height: 1px;
+	background-color: #dfdfdf;
+	max-width: 1200px;
+}
+
+/* Index Styling */
+
+.bg-index-tile-1 {
+	background-image:
+	 linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+		url(../images/index_tile_1.jpeg);	
+	height: 40rem;
+	transition-delay: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+.bg-index-tile-1:hover {
+	 box-shadow: 0px 0px 10px 1px #7C8893;
+}
+
+.bg-index-tile-1:hover {
+	background-image:
+	 linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),	
+		url(../images/index_tile_1.jpeg);	
+	height: 40rem; 
+}
+
+.bg-index-tile-2 {
+	background-image: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), 
+	url(../images/index_tile_2.jpeg);
+	height: 40rem;
+}
+
+.bg-index-tile-3 {
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+		url(../images/index_tile_3.jpg);
+	height: 40rem;
+}
+
+.bg-index-tile-4 {
+	background-image:
+	 linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+	url(../images/index_tile_4.jpeg);
+	height: 40rem;
+}
+
+.bg-index-tile-5 {
+	background-image: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+		url(../images/index_tile_5.jpeg);
+	height: 40rem;
+}
+
+.bg-index-tile-6 {
+	background-image: 
+	 linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+	url(../images/index_tile_6.jpeg);
+	height: 40rem;
+}
+
+/* Resources Styling */
+
+.bg-resources-tile-1 {
+	background-image: url(../images/resume.jpeg);
+	height: 426px;
+}
+
+.bg-resources-tile-2 {
+	background-image:url(../images/office.jpeg);
+	height: 426px;
+	
+}
+
+/* Resume Styling */
+
+.bg-resume-tile-1 {
+	background-image: url(../images/typing.jpg);
+	background-position: center;
+	height: 20rem;
+}
+
+.bg-resume-tile-2 {
+	background-image: url(../images/writing.jpg);
+	background-position:bottom;
+	height: 20rem;
+	
+}
+
+.bg-resume-tile-3 {
+	background-image: url(../images/person_pointing.jpeg);
+	background-position:bottom;
+	height: 426px;
+}
+
+.bg-resume-tile-4 {
+	background-image: url(../images/person_typing.jpeg);
+	background-position:bottom;
+	height: 426px;
+	opacity: 0.5;
+}
+
+/* Footer Styling */
+
+.bg-footer {
+	background-color:#F3F3F3;
+
+}
+
+.footer-link {
+	color: #000000;
+	transition-delay: 0.1s;
+}
+
+.footer-link:hover {
+	text-decoration: none;
+	color: #7C8893;
+}
+
+.footer-icon {
+	opacity:0.3;
+	width:40px; 
+	height:auto;
+	text-decoration: none;
+}
+
+.footer-icon:hover {
+	opacity:1.0;
+	text-decoration:none;
+}

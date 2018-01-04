@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about-icon {
+	height: 100px !important;
+	width: auto;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-about-us-contact {
+	border-radius:0px;
+	font-size:1.25rem;
+	border-width:0px 0px 0px 0px;
+	color:#FFF;
+	background:#343a40;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+}
+
+.btn-about-us-contact:hover {
+	background: #7C8893 !important;
+}
+
+div#aboutSection {
+	transition: 0.3s;
+	transition-timing-function: ease;
+}
+
+div#aboutSection:hover {
+	box-shadow: 0px 0px 10px 1px #7C8893;
+}
+
+div.col-lg-3 {
+	box-shadow: 0px 0px 10px 1px #7C8893;
+}

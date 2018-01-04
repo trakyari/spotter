@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn-contact {
+	border-radius:0px;
+	font-size:1.25rem;
+	border-width:0px 0px 0px 0px;
+	color:#FFF;
+	background:#343a40;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+}
+
+.btn-contact:hover {
+	background:#7C8893 !important;
+}
