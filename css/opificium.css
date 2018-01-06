@@ -43,8 +43,6 @@
 .tile {
 	padding-right: 0.25rem;
 	padding-left: 0.25rem;
-	transition-duration: 0.5s;
-	transition-timing-function: ease-in;
 }
 
 .tile-border {
@@ -71,24 +69,11 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),	
-		url(../images/index_tile_1.jpeg);	
+		url(../images/index_tile_1.jpeg);
+	background-position: center;
 	height: 40rem;
 	transition-delay: 0.5s;
 	transition-timing-function: ease-in;
-}
-
-.bg-index-tile-1:hover {
-	 box-shadow: 0px 0px 10px 1px #7C8893;
-}
-
-.bg-index-tile-1:hover {
-	background-image:
-	 linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),	
-		url(../images/index_tile_1.jpeg);	
-	height: 40rem; 
 }
 
 .bg-index-tile-2 {
@@ -98,6 +83,7 @@
       rgba(0, 0, 0, 0.5)
     ), 
 	url(../images/index_tile_2.jpeg);
+	background-position: center;
 	height: 40rem;
 }
 
@@ -108,6 +94,7 @@
       rgba(0, 0, 0, 0.5)
     ),	
 		url(../images/index_tile_3.jpg);
+	background-position: center;
 	height: 40rem;
 }
 
@@ -118,6 +105,7 @@
       rgba(0, 0, 0, 0.5)
     ),	
 	url(../images/index_tile_4.jpeg);
+	background-position: center;
 	height: 40rem;
 }
 
@@ -128,6 +116,7 @@
       rgba(0, 0, 0, 0.5)
     ),	
 		url(../images/index_tile_5.jpeg);
+	background-position: center;
 	height: 40rem;
 }
 
@@ -138,49 +127,13 @@
       rgba(0, 0, 0, 0.5)
     ),	
 	url(../images/index_tile_6.jpeg);
+	background-position: center;
 	height: 40rem;
 }
 
 /* Resources Styling */
 
-.bg-resources-tile-1 {
-	background-image: url(../images/resume.jpeg);
-	height: 426px;
-}
-
-.bg-resources-tile-2 {
-	background-image:url(../images/office.jpeg);
-	height: 426px;
-	
-}
-
 /* Resume Styling */
-
-.bg-resume-tile-1 {
-	background-image: url(../images/typing.jpg);
-	background-position: center;
-	height: 20rem;
-}
-
-.bg-resume-tile-2 {
-	background-image: url(../images/writing.jpg);
-	background-position:bottom;
-	height: 20rem;
-	
-}
-
-.bg-resume-tile-3 {
-	background-image: url(../images/person_pointing.jpeg);
-	background-position:bottom;
-	height: 426px;
-}
-
-.bg-resume-tile-4 {
-	background-image: url(../images/person_typing.jpeg);
-	background-position:bottom;
-	height: 426px;
-	opacity: 0.5;
-}
 
 /* Footer Styling */
 
