@@ -62,7 +62,7 @@ h1, h2, h3, h4 {
 .tile-img {
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: auto;
+	height: 40rem;
 }
 
 .line {
