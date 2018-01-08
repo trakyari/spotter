@@ -5,6 +5,106 @@ body {
  font-size: 1rem;
 }
 
+.bg-intro-tile {
+	background-image: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),	
+		url(../images/index-intro-tile.jpeg);
+	background-size:cover;
+	background-attachment: scroll;
+	height: 50rem ;
+	
+}
+
+.bg-intro-tile-text {
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 300;
+	/*box-shadow: 0px 0px 20px 1px #FFF;*/
+}
+
+div a.bg-intro-tile-text {
+	font-size: 1.5rem;
+	transition-duration: 0.1s;
+}
+
+div a.bg-intro-tile-text:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.bg-index-tile-1 {
+	background-image:
+	 linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+		url(../images/index_tile_1.jpeg);
+	background-position: center;
+	height: 40rem;
+	transition-delay: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+.bg-index-tile-2 {
+	background-image: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), 
+	url(../images/index_tile_2.jpeg);
+	background-position: center;
+	height: 40rem;
+}
+
+.bg-index-tile-3 {
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+		url(../images/index_tile_3.jpg);
+	background-position: center;
+	height: 40rem;
+}
+
+.bg-index-tile-4 {
+	background-image:
+	 linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+	url(../images/index_tile_4.jpeg);
+	background-position: center;
+	height: 40rem;
+}
+
+.bg-index-tile-5 {
+	background-image: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+		url(../images/index_tile_5.jpeg);
+	background-position: center;
+	height: 40rem;
+}
+
+.bg-index-tile-6 {
+	background-image: 
+	 linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	
+	url(../images/index_tile_6.jpeg);
+	background-position: center;
+	height: 40rem;
+}
+
 .carousel-img-first {
 	height: 50rem;
 	width: 100%;
