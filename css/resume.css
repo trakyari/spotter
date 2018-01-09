@@ -4,3 +4,20 @@
 .card p {
 	margin-bottom: 0px;
 }
+
+.bg-tile-1 {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.60),
+      rgba(0, 0, 0, 0.60)
+    ),
+		url(../images/resume-first-tile.jpeg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20rem;
+}
+
+.bg-tile-text {
+	font-size: 2rem;
+}

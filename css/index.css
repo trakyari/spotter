@@ -15,13 +15,13 @@
 .bg-intro-tile {
 	background-image: 
 	linear-gradient(
-      rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0.25)
+      rgba(0, 0, 0, 0.225),
+      rgba(0, 0, 0, 0.225)
     ),	
 		url(../images/index-intro-tile.jpeg);
 	background-size:cover;
-	background-attachment: scroll;
-	height: 60rem ;
+	background-repeat: no-repeat;
+	height: 75rem ;
 	
 }
 

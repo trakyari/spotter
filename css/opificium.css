@@ -13,8 +13,13 @@ h1, h2, h3, h4 {
 	font-family: 'Oxygen', sans-serif;
 }
 
+.navbar-icon {
+	width: 120px;
+	height: 60px;
+}
+
 .navbar-expanded-border-color {
-	border-color:#8D8D8D;
+	border-color:rgba(105,105,105,1.00);
 }
 
 .navbar-expanded-content-item {
