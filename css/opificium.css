@@ -81,6 +81,18 @@ h1, h2, h3, h4 {
 	max-width: 1200px;
 }
 
+.modal-link {
+	color: #FFFFFF !important;
+	font-weight: 300 !important;
+	font-family: 'Oxygen';
+	
+}
+
+.modal-link:hover {
+	font-weight: 600 !important;
+	text-decoration: none;
+}
+
 /* Index Styling */
 
 /* Footer Styling */

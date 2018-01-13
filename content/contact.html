@@ -120,6 +120,26 @@
 				<br>United States
 			</address>
 		</div>
+			<div class="w-100"></div>
+			<div class="col"></div>
+			<div class="col-lg-6 col-sm-10">
+			<div id="map" class="mb-5"></div>
+			<script>
+			  function initMap() {
+				var uluru = {lat: 37.4219296, lng: -122.0851143};
+				var map = new google.maps.Map(document.getElementById('map'), {
+				  zoom: 8,
+				  center: uluru
+				});
+				var marker = new google.maps.Marker({
+				  position: uluru,
+				  map: map
+				});
+			  }
+			</script>
+    		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFuJ0USDDH51fpip5w4XEfUDBTei03_Ew&callback=initMap" type="text/javascript"></script>
+			</div>
+		<div class="col"></div>
 	</div>	
 	<div class="row">
 		<div class="col"></div>
