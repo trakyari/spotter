@@ -123,3 +123,9 @@ h1, h2, h3, h4 {
 	opacity:1.0;
 	text-decoration:none;
 }
+.logo {
+	height: 2rem;
+	width: 6.25rem;
+	padding-top: 0.20rem;
+	
+}
